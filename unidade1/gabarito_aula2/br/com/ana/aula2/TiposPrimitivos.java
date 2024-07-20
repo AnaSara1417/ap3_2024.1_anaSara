@@ -41,7 +41,6 @@ public class TiposPrimitivos {
         System.out.println("");
         System.out.println(codigoString);
 
-
     }
 
 }
