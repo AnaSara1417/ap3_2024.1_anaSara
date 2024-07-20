@@ -8,6 +8,36 @@ public class TiposPrimitivos {
         byte codigoByte = 112;
         System.out.println("");
         System.out.println(codigoByte);
+
+        Short codigoShort = 456;
+        System.out.println("");
+        System.out.println(codigoShort);
+
+        int codigoInt = 567;
+        System.out.println("");
+        System.out.println(codigoInt);
+
+        long codigoLong = 564;
+        System.out.println("");
+        System.out.println(codigoLong);
+
+        float codigoFloat = 876;
+        System.out.println("");
+        System.out.println(codigoFloat);
+
+        double codigoDouble = 978;
+        System.out.println("");
+        System.out.println(codigoDouble);
+
+        boolean codigoBoolean = true;
+        System.out.println("");
+        System.out.println(codigoBoolean);
+
+        char codigoChar = 345;
+        System.out.println("");
+        System.out.println(codigoChar);
+
+
     }
 
 }
