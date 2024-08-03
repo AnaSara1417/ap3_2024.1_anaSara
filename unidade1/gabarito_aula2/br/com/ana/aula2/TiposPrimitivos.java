@@ -1,46 +1,45 @@
-package br.com.ana.aula2;
-
+package unidade1.src.gabarito_aula2;
 
 public class TiposPrimitivos {
-    public static void main(String[]args){
+    // Tipos Primitivos: Crie um programa que declare variáveis de todos os tipos
+    // primitivos em Java (byte, short, int, long, float, double, boolean, char) e
+    // uma variável do tipo String. Atribua valores a elas e imprima esses valores
+    // no console.
+    public static void main(String[] args) {
+        byte tipoByte = 100;
+        System.out.println("Valor do byte: " + tipoByte);
+        System.out.println();
 
-        //Tipos Primitivos: Crie um programa que declare variáveis de todos os tipos primitivos em Java (byte, short, int, long, float, double, boolean, char) e uma variável do tipo String. Atribua valores a elas e imprima esses valores no console.
-        byte codigoByte = 112;
-        System.out.println("");
-        System.out.println(codigoByte);
+        short tipoShort = 30000;
+        System.out.println("Valor do short: " + tipoShort);
+        System.out.println();
 
-        Short codigoShort = 456;
-        System.out.println("");
-        System.out.println(codigoShort);
+        int tipoInt = 1000000;
+        System.out.println("Valor do int: " + tipoInt);
+        System.out.println();
 
-        int codigoInt = 567;
-        System.out.println("");
-        System.out.println(codigoInt);
+        long tipoLong = 10000000000L;
+        System.out.println("Valor do long: " + tipoLong);
+        System.out.println();
 
-        long codigoLong = 564;
-        System.out.println("");
-        System.out.println(codigoLong);
+        float tipoFloat = 3.14f;
+        System.out.println("Valor do float: " + tipoFloat);
+        System.out.println();
 
-        float codigoFloat = 876;
-        System.out.println("");
-        System.out.println(codigoFloat);
+        double tipoDouble = 3.14159265359;
+        System.out.println("Valor do double: " + tipoDouble);
+        System.out.println();
 
-        double codigoDouble = 978;
-        System.out.println("");
-        System.out.println(codigoDouble);
+        boolean tipoBoolean = true;
+        System.out.println("Valor do boolean: " + tipoBoolean);
+        System.out.println();
 
-        boolean codigoBoolean = true;
-        System.out.println("");
-        System.out.println(codigoBoolean);
+        char tipoChar = 'J';
+        System.out.println("Valor do char: " + tipoChar);
+        System.out.println();
 
-        char codigoChar = 345;
-        System.out.println("");
-        System.out.println(codigoChar);
-
-        String codigoString = "Aula legal!";
-        System.out.println("");
-        System.out.println(codigoString);
-
+        String tipoString = "Hello, world!";
+        System.out.println("Valor do String: " + tipoString);
+        System.out.println();
     }
-
 }
