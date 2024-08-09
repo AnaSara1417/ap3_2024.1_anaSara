@@ -1,64 +1,78 @@
 package unidade1.src.gabarito_aula4;
 
 public class Aluno {
-    String nomeDoAluno;
-    String nomeMae;
-    Integer nota1;
-    Integer nota2;
-    Integer nota3;
 
-    public String getNomeDoAluno() {
-        return nomeDoAluno;
-    }
+    String nome = "SemNome";
+    double nota1 = 5;
+    double nota2 = -1;
+    double nota3 = -1;
+    String nomeDaMae = "Maezinha";
+    boolean aprovadoMedia = false;
 
-    public void setNomeDoAluno(String nomeDoAluno) {
-        this.nomeDoAluno = nomeDoAluno;
-    }
-    public String getNomeMae() {
-        return nomeMae;
+    public String getNomeMaisculo() {
+        return nome.toUpperCase();
     }
 
-    public void setNomeMae(String nomeMae) {
-        this.nomeMae = nomeMae;
-    }
-    public Integer getNota1() {
-        return nota1;
-    }
-
-    public void setNota1(Integer nota1) {
-        this.nota1 = nota1;
-    }
-
-    public Integer getNota2() {
-        return nota2;
-    }
-
-    public void setNota2(Integer nota2) {
-        this.nota2 = nota2;
-    }
-
-    public Integer getNota3() {
-        return nota3;
-    }
-
-    public void setNota3(Integer nota3) {
-        this.nota3 = nota3;
+    public String getNomeMinusculo() {
+        return nome.toLowerCase();
     }
 
     public double getMedia() {
         return (nota1 + nota2 + nota3) / 3;
     }
 
-    public boolean aprovadoPorMedia() {
+    public boolean aprovadoMedia() {
         if (getMedia() >= 7)
             return true;
-
         return false;
     }
 
-    @Override
-    public String toString() {
-        return "Aluno [nomeDoAluno=" + nomeDoAluno + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + "]";
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getNota1() {
+        return nota1;
+    }
+
+    public void setNota1(double nota1) {
+        this.nota1 = nota1;
+    }
+
+    public double getNota2() {
+        return nota2;
+    }
+
+    public void setNota2(double nota2) {
+        this.nota2 = nota2;
+    }
+
+    public double getNota3() {
+        return nota3;
+    }
+
+    public void setNota3(double nota3) {
+        this.nota3 = nota3;
+    }
+
+    public String getNomeDaMae() {
+        return nomeDaMae;
+    }
+
+    public void setNomeDaMae(String nomeDaMae) {
+        this.nomeDaMae = nomeDaMae;
+    }
+
+    public boolean isAprovadoMedia() {
+        return aprovadoMedia;
+    }
+
+    public void setAprovadoMedia(boolean aprovadoMedia) {
+        this.aprovadoMedia = aprovadoMedia;
     }
 
 }
