@@ -1,13 +1,11 @@
-package unidade1.src.gabarito_aula4;
+package unidade1.src.gabarito_aula3;
 
 public class Aluno {
 
     String nome = "SemNome";
-    double nota1 = 5;
+    double nota1 = -1;
     double nota2 = -1;
     double nota3 = -1;
-    String nomeDaMae = "Maezinha";
-    boolean aprovadoMedia = false;
 
     public String getNomeMaisculo() {
         return nome.toUpperCase();
@@ -59,26 +57,9 @@ public class Aluno {
         this.nota3 = nota3;
     }
 
-    public String getNomeDaMae() {
-        return nomeDaMae;
-    }
-
-    public void setNomeDaMae(String nomeDaMae) {
-        this.nomeDaMae = nomeDaMae;
-    }
-
-    public boolean isAprovadoMedia() {
-        return aprovadoMedia;
-    }
-
-    public void setAprovadoMedia(boolean aprovadoMedia) {
-        this.aprovadoMedia = aprovadoMedia;
-    }
-
     @Override
     public String toString() {
-        return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + ", nomeDaMae="
-                + nomeDaMae + ", aprovadoMedia=" + aprovadoMedia + "]";
+        return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + "]";
     }
 
 }
