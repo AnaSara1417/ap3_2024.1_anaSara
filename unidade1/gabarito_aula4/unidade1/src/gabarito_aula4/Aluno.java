@@ -1,5 +1,7 @@
 package unidade1.src.gabarito_aula4;
 
+import java.time.LocalDate;
+
 public class Aluno {
 
     String nome = "SemNome";
@@ -8,6 +10,17 @@ public class Aluno {
     double nota3 = -1;
     String nomeDaMae = "Maezinha";
     boolean aprovadoMedia = false;
+    LocalDate dataNascimento = null;
+    LocalDate dataCadastro = LocalDate.now();
+
+
+    public LocalDate getDataCadastro() {
+        return dataCadastro;
+    }
+
+    public void setDataCadastro(LocalDate dataCadastro) {
+        this.dataCadastro = dataCadastro;
+    }
 
     public String getNomeMaisculo() {
         return nome.toUpperCase();
