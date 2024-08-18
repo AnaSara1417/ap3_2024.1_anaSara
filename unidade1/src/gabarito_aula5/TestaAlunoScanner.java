@@ -22,6 +22,14 @@ public class TestaAlunoScanner {
         System.out.println("Digite o nome da mãe:");
         String nomeDaMae = teclado.next();
 
+        DateTimeFormater padrao = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        System.out.print("Digite a data de nascimento(formato dd/MM/yyyy):");
+        String dataNascimentoString = teclado.next();
+        LocalDate dataNascimento = LocalDate.parse(dataNascimentoString,  )
+
+
+
+
 
         umAluno.setNome(nomeDoAluno);
         umAluno.setNota1(nota1);
