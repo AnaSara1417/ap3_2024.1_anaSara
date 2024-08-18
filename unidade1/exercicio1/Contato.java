@@ -1,3 +1,13 @@
+/**
+ * Codigo Secreto = 1961762906
+ * Explicação do código
+ * O que a classe faz 
+ *
+ * @author Ana Sara 
+ * @since 13/08/2024
+ *
+ */ 
+
 public class Contato {
     private String nome;
     private String telefone;
