@@ -7,19 +7,19 @@ import java.util.LinkedList;
  * @author Ana Sara 
  * @since 18/08/2024
  *
- */ 
+ */
 import java.util.LinkedList;
 import java.util.Random;
 
 public class Questao2 {
 
     public static void main(String[] args) {
-        LinkedList<Integer> numeros = new LinkedList<>();
+        LinkedList<Integer> numeros = new LinkedList<>(); // Xico - correção: tá correto?
 
         Random random = new Random();
 
         for (int i = 0; i < 9999; i++) {
-            int numeroRandomico = random.nextInt(1000) + 1;
+            int numeroRandomico = random.nextInt(1000) + 1; // Xico - correção: por que você limitou em 1000?
             numeros.add(numeroRandomico);
         }
         int menorValor = Integer.MAX_VALUE;
