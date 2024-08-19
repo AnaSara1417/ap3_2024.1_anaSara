@@ -2,10 +2,10 @@ import java.util.LinkedList;
 /**
  * Codigo Secreto = 1961762906
  * Explicação do código
- * O que a classe faz 
+ * O código gera uma lista com 9999 números aleatórios entre 1 e 1000, identifica o menor número dessa lista e o exibe no console. 
  *
  * @author Ana Sara 
- * @since 13/08/2024
+ * @since 18/08/2024
  *
  */ 
 import java.util.LinkedList;

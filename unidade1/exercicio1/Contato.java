@@ -1,10 +1,10 @@
 /**
  * Codigo Secreto = 1961762906
  * Explicação do código
- * O que a classe faz 
+ * A classe Contato permite criar e manipular objetos que armazenam um nome e um telefone. O método toString() exibe o nome do contato em maiúsculas e o número de telefone.
  *
  * @author Ana Sara 
- * @since 13/08/2024
+ * @since 18/08/2024
  *
  */ 
 

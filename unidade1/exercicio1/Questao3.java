@@ -1,7 +1,7 @@
 /**
  * Codigo Secreto = 1961762906
  * Explicação do código
- * O que a classe faz 
+ * O código solicita ao usuário a quantidade desejada de latão e calcula e exibe a quantidade de cobre e zinco necessárias para obter essa quantidade de latão, assumindo que o latão é composto por 70% de cobre e 30% de zinco. 
  *
  * @author Ana Sara 
  * @since 13/08/2024

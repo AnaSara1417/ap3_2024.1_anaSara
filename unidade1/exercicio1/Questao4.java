@@ -1,10 +1,10 @@
 /**
  * Codigo Secreto = 1961762906
  * Explicação do código
- * O que a classe faz 
+ * O código cria três instâncias da classe Contato com informações sobre pintores e exibe essas informações usando o método toString().
  *
  * @author Ana Sara 
- * @since 13/08/2024
+ * @since 18/08/2024
  *
  */ 
 
